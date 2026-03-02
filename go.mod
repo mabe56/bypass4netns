@@ -14,6 +14,8 @@ require (
 	golang.org/x/sys v0.29.0
 )
 
+replace github.com/vtolstov/go-ioctl => salsa.debian.org/go-team/packages/golang-github-vtolstov-go-ioctl.git v0.0.0-20241115155250-4fc853b694ec
+
 require (
 	github.com/coreos/go-semver v0.3.1 // indirect
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
