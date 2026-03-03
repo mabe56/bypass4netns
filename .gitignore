@@ -2,3 +2,12 @@
 /bypass4netnsd
 *~
 /.vagrant
+
+# Packaging
+*.deb
+*.deb.sha256
+*.deb.md5
+debian-build/
+
+# Environment files (may contain tokens)
+.env
